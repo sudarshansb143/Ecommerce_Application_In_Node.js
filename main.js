@@ -22,6 +22,8 @@ app.use("/", (req, res, next) => {
     next()
 })
 
+app.use(express.static("public"))
+
 app.use("/home", (req, res, next) =>
     res.render("index")
 )

@@ -7,6 +7,8 @@ exports.sendPortHome = (req, res, next) => {
 
 exports.renderCard = (req, res, next) => {
     let temp = req.body.product
-    cart.push(temp);
+    if (temp != undefined) {
+        cart.push(temp);
+    }
     res.render("added", { products: cart })
 };

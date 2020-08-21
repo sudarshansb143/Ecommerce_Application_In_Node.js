@@ -1,0 +1,12 @@
+        .unorder {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .unorder .listing {
+            display: inline;
+            letter-spacing: 0.5px;
+            font-size: 1.5rem;
+            padding-right: 100px;
+        }
