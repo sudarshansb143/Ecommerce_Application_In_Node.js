@@ -12,3 +12,12 @@ exports.renderCard = (req, res, next) => {
     }
     res.render("added", { products: cart })
 };
+
+//Incomplete
+exports.addCart = (req, res, next) => {
+    let temp = req.body.product
+    if (temp != undefined) {
+        cart.push(temp);
+    }
+    res.render("added", { products: cart })
+};
