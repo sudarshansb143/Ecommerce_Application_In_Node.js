@@ -13,7 +13,7 @@ exports.renderCard = (req, res, next) => {
     res.render("added", { products: cart })
 };
 
-//Incomplete
+//Incomplete block of code added
 exports.addCart = (req, res, next) => {
     let temp = req.body.product
     if (temp != undefined) {
