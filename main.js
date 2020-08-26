@@ -3,6 +3,7 @@ const product_router = require("./routes/product")
 const port = 3000
 const app = express()
 
+//Configartation paths
 
 app.set("view engine", "ejs")
 
@@ -14,19 +15,22 @@ app.use(
     })
 );
 
-
 app.use(express.json());
 
+//Routing starts
 app.use("/", (req, res, next) => {
     console.log(req.url)
     next()
 })
 
+//Serving the static assests
 app.use(express.static("public"))
 
+//Home directiory
 app.use("/home", (req, res, next) =>
     res.render("index")
 )
+
 
 app.use("/abt", (req, res, next) =>
     res.render("abt")

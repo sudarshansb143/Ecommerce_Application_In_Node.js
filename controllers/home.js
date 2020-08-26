@@ -1,10 +1,12 @@
 //This is the controller
 
-const cart = []
+
+let cart = []
 exports.sendPortHome = (req, res, next) => {
     res.render("portfolio")
 };
 
+//rendering the cart
 exports.renderCard = (req, res, next) => {
     let temp = req.body.product
     if (temp != undefined) {
@@ -13,11 +15,8 @@ exports.renderCard = (req, res, next) => {
     res.render("added", { products: cart })
 };
 
-//Incomplete block of code added
-exports.addCart = (req, res, next) => {
-    let temp = req.body.product
-    if (temp != undefined) {
-        cart.push(temp);
-    }
+//Clearing the cart
+exports.clearCart = (req, res, next) => {
+    cart = [];
     res.render("added", { products: cart })
 };

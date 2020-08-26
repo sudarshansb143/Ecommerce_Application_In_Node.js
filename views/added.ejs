@@ -14,6 +14,14 @@
 
 
         <%  if (products.length > 0 ) {%>
+
+
+            <li>
+                <%= `You have ${products.length} products in cart` %>
+            </li>
+
+
+
             <ul>
                 <% for (let temp of products)  {%>
 
@@ -24,12 +32,20 @@
 
                     <% } %>
             </ul>
+            <a href="/product/info"> Want to add more </a>
+            <br>
+            <a href="/product/clear_cart"> Clear Cart </a>
+
             <% } else{ %>
 
                 <h1>No products here </h1>
-                <% } %>
+                <a href="/product/info"> Add  products </a>
 
-                    <a href="/product/info"> Want to add more </a>
+
 </body>
+
+<% } %>
+
+
 
 </html>
