@@ -8,7 +8,7 @@
 
 > Ecommerce web application several handy functionalities of adding products, removing products and managing all other consecutive functionalities. 
 
-### 🏠 [Homepage](/home)
+### 🏠 [Homepage](/product/home)
 
 ### ✨ [Demo](/home)
 
@@ -24,13 +24,11 @@ npm install
 npm start
 ```
 
-
-
 ## Author
 
 👤 **Sudarshan Sawandkar**
 
-* Github: [@sudarshands143](https://github.com/sudarshands143)
+* Linked IN : [@sudarshan-78jack/](https://www.linkedin.com/in/sudarshan-78jack/)
 
 ## Show your support
 
