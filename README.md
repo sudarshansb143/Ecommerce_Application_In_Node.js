@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> ecommerece application several handy functionalities
+> Ecommerce web application several handy functionalities of adding products, removing products and managing all other consecutive functionalities. 
 
 ### 🏠 [Homepage](/home)
 
@@ -24,11 +24,7 @@ npm install
 npm start
 ```
 
-## Run tests
 
-```sh
-npm run test
-```
 
 ## Author
 
@@ -41,4 +37,5 @@ npm run test
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_Suggestions are welcome ❤️ for any thing please raise and issue_
+
