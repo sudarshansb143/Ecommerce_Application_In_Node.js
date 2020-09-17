@@ -32,7 +32,7 @@ npm start
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if this project helped you!!
 
 ***
 _Suggestions are welcome ❤️ for any thing please raise and issue_
